@@ -1,10 +1,30 @@
 body{
-    font-family: Arial;
-    background: beige;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: antiquewhite;
+}
+
+.image{
+    display: block;
+    width: 80%;
+    margin: 20px auto;
+}
+
+#header{
+    text-align: center;
+}
+
+#header h1{
+    text-transform: capitalize;
+    color: chocolate;
+    letter-spacing: 2px;
 }
 
 .poem{
     color:green;
+}
+
+#navigation{
+    margin: 30px;
 }
 
 .text{
@@ -12,6 +32,29 @@ body{
     line-height: 1.5em;
 }
 
+.text h1{
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+.text p{
+    margin-bottom: 32px;
+}
+
+a {
+    text-decoration: none;
+    color:crimson;
+    font-weight: bold;
+}
+
+article{
+    text-decoration: none;
+}
+
+a:hover{
+    color: chocolate;
+}
+
 .contactMethod{
-    
+    line-height: 5px;
 }
