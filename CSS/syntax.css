@@ -1,12 +1,19 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background-color: antiquewhite;
+    background-color: #bebebe;
+    background: -moz-linear-gradient(top, #dde6de 0%, #bebebe 100%);
+    background: -webkit-linear-gradient(top, #dde6de 0%, #bebebe 100%);
+    background: linear-gradient(top, #dde6de 0%, #bebebe 100%);
+}
+
+#wrapper{
+    width: 980px;
+    margin: 0 auto;
 }
 
 .image{
     display: block;
-    width: 80%;
-    margin: 20px auto;
+    width: 100%;
 }
 
 #header{
@@ -19,12 +26,42 @@ body{
     letter-spacing: 2px;
 }
 
-.poem{
-    color:green;
+#navigation {
+    padding: 10px;
 }
 
-#navigation{
-    margin: 30px;
+#navigation ul{
+    text-align: right;
+    list-style-type: none;
+    margin-right: 10px;
+}
+
+#navigation li{
+    padding: 12px;
+    margin: 5px;
+    display: inline-block;
+    border: 1px solid rgb(168, 163, 159);
+    font-family: arial;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 14px;
+    text-align: center;
+    border-radius: 4px;
+    background: #f1d7b5;
+    background: -moz-linear-gradient(top, #fffaf0 0%, #f1d7b5 100%);
+    background: -webkit-linear-gradient(top, #fffaf0 0%, #f1d7b5 100%);
+    background: linear-gradient(top, #fffaf0 0%, #f1d7b5 100%);
+}
+
+#navigation li:hover{
+    background: #fffaf0;
+    background: -moz-linear-gradient(bottom, #fffaf0 0%, #f1d7b5 100%);
+    background: -webkit-linear-gradient(bottom, #fffaf0 0%, #f1d7b5 100%);
+    background: linear-gradient(bottom, #fffaf0 0%, #f1d7b5 100%);
+}
+#navigation a{
+    color: gray;
+    text-decoration: none;
 }
 
 .text{
@@ -41,7 +78,7 @@ body{
     margin-bottom: 32px;
 }
 
-a {
+.backOnTop a{
     text-decoration: none;
     color:crimson;
     font-weight: bold;
@@ -49,10 +86,6 @@ a {
 
 article{
     text-decoration: none;
-}
-
-a:hover{
-    color: chocolate;
 }
 
 .contactMethod{
